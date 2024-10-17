@@ -1,0 +1,47 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    margin:0;
+}
+
+.qr-container{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    justify-content: center;
+    align-items: stretch;
+    margin:5% 40% 5% 40%;
+    flex-wrap: wrap;
+    border-radius: 5%;
+}
+
+@media screen and (max-width: 375px) {
+    .qr-container{
+        margin:40% 5% 40% 5%;
+    }
+  }
+
+.qr-box{
+    padding: 5%;
+}
+
+.qr-box img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5%;
+}
+
+.box-title{
+    font-size: 1em;
+    font-weight: 700;
+    font-family: Outfit;
+    text-align: center;
+    padding: 2% 15%;
+}
+
+.box-desc {
+    font-size: 0.7em;
+    font-family: Outfit;
+    font-weight: 400;
+    text-align: center;
+    padding: 2% 15% 10% 15%;
+}
